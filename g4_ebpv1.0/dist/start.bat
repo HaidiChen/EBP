@@ -1,0 +1,1 @@
+java -classpath "./classes;./lib/*" com.ebp.g4.view.MainFrame

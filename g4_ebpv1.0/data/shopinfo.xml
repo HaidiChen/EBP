@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shopinfo>
+  <shop>
+    <shopid>s1</shopid>
+    <name>妞妞零食店</name>
+    <type>食品店</type>
+    <logcompany>圆通</logcompany>
+    <info>全场清仓大甩卖：全场1折！全场1折！全场1折！</info>
+  </shop>
+  <shop>
+    <shopid>s2</shopid>
+    <name>小公举潮流服饰</name>
+    <type>服装店</type>
+    <logcompany>申通</logcompany>
+    <info>这件大衣穿起来很舒适</info>
+  </shop>
+  <shop>
+    <shopid>s3</shopid>
+    <name>丝芙兰</name>
+    <type>美妆店</type>
+    <logcompany>韵达</logcompany>
+    <info>我们比屈臣氏高级哦</info>
+  </shop>
+  <shop>
+    <shopid>s4</shopid>
+    <name>宜家</name>
+    <type>家具店</type>
+    <logcompany>韵达</logcompany>
+    <info>高级的ins北欧风</info>
+  </shop>
+  <shop>
+    <shopid>s5</shopid>
+    <name>APPLE官方授权店</name>
+    <type>数码店</type>
+    <logcompany>顺丰</logcompany>
+    <info>我们是官方授权直营店</info>
+  </shop>
+  <shop>
+    <shopid>s6</shopid>
+    <name>GUUCI$PRADA</name>
+    <type>箱包店</type>
+    <logcompany>顺丰</logcompany>
+    <info>GUCCI GUCCI PRADA PRADA</info>
+  </shop>
+  <shop>
+    <shopid>s7</shopid>
+    <name>妞妞水果店</name>
+    <type>食品店</type>
+    <logcompany>韵达</logcompany>
+    <info>生鲜速达</info>
+  </shop>
+  <shop>
+    <shopid>s8</shopid>
+    <name>放逐之刃书铺</name>
+    <type>书店</type>
+    <logcompany>百世汇通</logcompany>
+    <info>全球最全的书籍都在我家</info>
+  </shop>
+  <shop>
+    <shopid>s9</shopid>
+    <name>母婴用品店</name>
+    <type>日用品店</type>
+    <logcompany>韵达</logcompany>
+    <info>孩子王</info>
+  </shop>
+</shopinfo>
+

@@ -1,0 +1,10 @@
+﻿1、config.xml文件中存放的各固定信息如商品种类、评论种类
+2、accountinfo.xml文件中存放的是三种用户（管理员、买家、卖家）的账号信息
+3、goodsinfo.xml文件中存放的的是商品有关信息
+4、shopinfo.xml文件中存放的是商铺有关信息
+5、shopcartinfo.xml文件中存放的是购物车有关信息
+6、orderinfo.xml文件中存放的是订单有关信息
+7、commentinfo.xml文件中存放的是评论有关信息
+8、menuinfo.xml文件中存放是菜单栏有关信息
+9、categoryinfo.xml文件中存放的是分类有关信息
+10、logcompanyinfo.xml文件中存放是物流公司有关信息

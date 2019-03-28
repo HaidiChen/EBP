@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category>
+	<item>
+		<id>c1</id>
+		<name>食品</name>
+	</item>
+	<item>
+		<id>c2</id>
+		<name>服装</name>
+	</item>
+	<item>
+		<id>c3</id>
+		<name>美妆</name>
+	</item>
+	<item>
+		<id>c4</id>
+		<name>数码产品</name>
+	</item>
+	<item>
+		<id>c5</id>
+		<name>母婴用品</name>
+	</item>
+	<item>
+		<id>c6</id>
+		<name>生鲜水果</name>
+	</item>
+	<item>
+		<id>c7</id>
+		<name>家居建材</name>
+	</item>
+	<item>
+		<id>c8</id>
+		<name>图书音像</name>
+	</item>
+	<item>
+		<id>c9</id>
+		<name>其它</name>
+	</item>
+</category>

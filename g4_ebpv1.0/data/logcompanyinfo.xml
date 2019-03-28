@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logcompany>
+	<item>
+		<id>log1</id>
+		<name>中通</name>
+	</item>
+	<item>
+		<id>log2</id>
+		<name>韵达</name>
+	</item>
+	<item>
+		<id>log3</id>
+		<name>顺丰</name>
+	</item>
+	<item>
+		<id>log4</id>
+		<name>申通</name>
+	</item>
+	<item>
+		<id>log5</id>
+		<name>百世汇通</name>
+	</item>
+	<item>
+		<id>log6</id>
+		<name>天天快递</name>
+	</item>
+	<item>
+		<id>log7</id>
+		<name>EMS</name>
+	</item>
+
+</logcompany>

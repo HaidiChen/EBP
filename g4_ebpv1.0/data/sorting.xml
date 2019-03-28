@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sorting>
+	<item>
+		<id>sort1</id>
+		<name>商品</name>
+	</item>
+	<item>
+		<id>sort2</id>
+		<name>店铺</name>
+	</item>
+</sorting>
