@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<project name="firstbuild" default="z-archive">
+	<property name="srcdir" value="src">
+	</property>
+
+	<target name="init" depends="clean">
+		<!--mkdir dir="build/classes" /-->
+		<mkdir dir="dist" />
+		<mkdir dir="dist/classes" />
+		<mkdir dir="dist/cfg" />
+		<mkdir dir="dist/data" />
+		<mkdir dir="dist/image" />
+		<mkdir dir="dist/log" />
+		<mkdir dir="dist/lib" />
+		<mkdir dir="dist/sql" />
+		<echo>创建目录成功</echo>
+	</target>
+	<target name="compile" depends="init">
+		<javac srcdir="src" destdir="dist/classes">
+			<compilerarg line="-encoding UTF-8" />
+			<classpath>
+				<pathelement path="${classpath}" />
+				<!--pathelement location="lib/log4j-1.2.17.jar;"/-->
+				<fileset dir="lib">
+					<include name="*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<echo>编译完成!</echo>
+	</target>
+	<!--target name="archive" depends="compile">
+		<jar destfile="dist/project.jar" basedir="build/classes" />
+	</target-->
+	<target name="z-archive" depends="compile">
+		<copy todir="dist/cfg">
+			<fileset dir="cfg" />
+		</copy>
+		<copy todir="dist/lib">
+			<fileset dir="lib" includes="*.jar" />
+		</copy>
+		<copy todir="dist/data">
+			<fileset dir="data" includes="*.xml" />
+		</copy>
+		<copy todir="dist/image">
+			<fileset dir="image" />
+		</copy>
+		<copy todir="dist/log">
+			<fileset dir="log" />
+		</copy>
+		<!--copy todir="dist/sql">
+			<fileset dir="sql" />
+		</copy-->
+		<copy file="bin/start.bat" todir="dist" />
+		<tstamp>
+			<format property="TODAY" pattern="yyyy-MM-dd" locale="cn" />
+		</tstamp>
+		<echo>今天:${TODAY}</echo>
+		<zip destfile="EBPV1.0_GX_ST_${TODAY}.zip" duplicate="preserve" basedir="dist">
+		</zip>
+	</target>
+
+	<!--target name="execute" depends="compile">
+			<java classname="FirstClass" classpath="build/classes">
+			</java>
+	</target-->
+	<target name="clean">
+		<!--delete dir="build" /-->
+		<delete dir="dist" />
+	</target>
+
+</project>
